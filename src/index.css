@@ -1,0 +1,66 @@
+.halloween-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: linear-gradient(135deg, #1a0f0f, #3a1c1c);
+  color: #ff6b00;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+  z-index: 1000;
+  border: 2px solid #ff6b00;
+}
+
+.halloween-card:hover{
+  box-shadow: #ff6b00;
+  box-shadow: 0 0 15px #ff6b00;
+}
+
+.card-content {
+  position: relative;
+}
+
+.halloween-card h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  text-shadow: 0 0 10px #ff6b00;
+}
+
+.halloween-card p {
+  font-size: 1.1rem;
+  margin-bottom: 1.5rem;
+  line-height: 1.6;
+  color: #f8f8f8;
+}
+
+.halloween-characters {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 2rem;
+  margin: 1.5rem 0;
+  filter: drop-shadow(0 0 5px #ff6b00);
+}
+
+.close-button {
+  background-color: #ff6b00;
+  color: #1a0f0f;
+  border: none;
+  padding: 0.5rem 1.5rem;
+  border-radius: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-size: 1rem;
+  margin-top: 1rem;
+}
+
+.close-button:hover {
+  background-color: #ff8c00;
+  transform: scale(1.05);
+  box-shadow: 0 0 15px #ff6b00;
+}
